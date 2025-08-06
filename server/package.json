@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
+    "test:db": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand 'Database Integration Testing'",
+    "test:api": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand 'Functional API Testings'",
+    "test:performance": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand 'Book Performance Testing'",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
