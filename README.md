@@ -12,8 +12,6 @@ This project demonstrates a full-stack application with comprehensive testing st
 - [Testing](#testing)
 - [Tech Stack](#tech-stack)
 - [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
